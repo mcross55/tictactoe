@@ -1,5 +1,4 @@
-from helpers import draw_board, check_turn, check_for_win
-import os
+from helpers import draw_board, clear_screen, check_turn, check_for_win
 
 spots = {1 : '1', 2 : '2', 3 : '3', 4 : '4', 5 : '5',
          6 : '6', 7 : '7', 8 : '8', 9 : '9'}
@@ -11,7 +10,7 @@ prev_turn = -1
 
 while playing:
     # Reset the screen
-    os.system('cls' if os.name== 'nt' else 'clear')
+    clear_screen()
     draw_board(spots)
     
     # If an invalid turn occurred, let the player know
@@ -36,7 +35,7 @@ while playing:
 
 # Out of the loop, print results
 # Draw the board one last time.
-os.system('cls' if os.name== 'nt' else 'clear')
+clear_screen()
 draw_board(spots)
 # If there was a winner, way who won
 if complete:

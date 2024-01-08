@@ -4,6 +4,11 @@ def draw_board(spots):
                 f"|{spots[7]}|{spots[8]}|{spots[9]}|")
     print(board)
 
+def clear_screen():
+    # Print empty lines to give the appearance of clearing the screen
+    for _ in range(50):
+        print()
+
 def check_turn(turn):
     if turn % 2 == 0: return 'O'
     else: return 'X'
