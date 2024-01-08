@@ -11,8 +11,8 @@ def check_turn(turn):
 def check_for_win(spots):
     # Horizontal Check
     if (spots[1] == spots[2] == spots[3]) \
-        or (spots[1] == spots[2] == spots[3]) \
-        or (spots[1] == spots[2] == spots[3]):
+        or (spots[4] == spots[5] == spots[6]) \
+        or (spots[7] == spots[8] == spots[9]):
         return True
     # Vertical Check
     elif (spots[1] == spots[4] == spots[7]) \
