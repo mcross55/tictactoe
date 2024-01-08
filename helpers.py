@@ -23,4 +23,3 @@ def check_for_win(spots):
     elif (spots[1] == spots[5] == spots[9]) \
         or (spots[3] == spots[5] == spots[7]):
         return True
-    
