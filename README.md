@@ -8,6 +8,7 @@ This is a simple console-based Tic Tac Toe game implemented in Python. It allows
 - `helpers.py`: Contains helper functions for drawing the game board and checking the turn (final state of code).
 - `main.py`: This is the incomplete version of `tictactoe.py`. Scouts only made it this far. 
 - `helpers_post_meeting.py`: This is the incomplete version of `helpers.py`. Scouts only made it this far.
+- `Tic Tac Toe Slides for Scouts.pdf`: Slides used at Scout meeting. We got through Step 10. Start on Step 11.
 
 ## How to Play
 
